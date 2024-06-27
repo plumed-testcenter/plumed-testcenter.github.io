@@ -1,0 +1,18 @@
+name: lammps
+description: The Large-scale Atomic/Molecular Massively Parallel Simulator. An MD code that is often used for materials modelling.
+executible: lammps
+tolerance: 0.005
+link: https://www.lammps.org
+tests: 
+   positions: yes
+   timestep: yes
+   mass: yes
+   charge: yes
+   forces: yes
+   virial: yes
+   energy: yes
+   engforces: yes
+install_plumed_v2.9: working
+install_plumed_master: working
+test_plumedv2.9: broken 
+test_plumedmaster: broken 

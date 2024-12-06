@@ -1,0 +1,18 @@
+name: simplemd
+description: A Lennard Jones molecular dynamics code that is part of PLUMED. 
+executible: plumed
+tolerance: 0.001
+link: https://www.plumed.org/doc-master/user-doc/html/simplemd.html
+tests: 
+   positions: yes
+   timestep: yes
+   mass: yes
+   charge: no
+   forces: yes
+   virial: no
+   energy: yes
+   engforces: yes
+install_plumed_v2.10: working
+install_plumed_master: working
+test_plumed_v2.10: working 
+test_plumed_master: working 

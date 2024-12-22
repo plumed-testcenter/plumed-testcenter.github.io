@@ -1,0 +1,9 @@
+pages:
+- title: Home
+  url: /
+- title: PLUMED
+  url: /plumed.html
+- title: Browse codes 
+  url: /browse.html
+- title: Contribute
+  url: /contribute.html

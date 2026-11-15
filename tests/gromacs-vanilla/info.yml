@@ -1,0 +1,31 @@
+name: gromacs
+description: GROMACS 2026 without patches, with the feature-reduced PLUMED interface
+  that GROMACS includes since version 2025.
+executible: gromacs
+tolerance: 0.001
+link: https://www.gromacs.org
+tests:
+  positions: true
+  timestep: true
+  mass: true
+  charge: true
+  forces: true
+  virial: true
+  energy: false
+  engforces: false
+  regtests: true
+results:
+  v2.10:
+    install_plumed: working
+    test_plumed:
+      basic: working
+      virial: working
+      energy: unavailable
+      regtests: failing
+  master:
+    install_plumed: working
+    test_plumed:
+      basic: working
+      virial: working
+      energy: unavailable
+      regtests: failing
